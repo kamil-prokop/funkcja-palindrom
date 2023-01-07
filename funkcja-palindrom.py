@@ -6,4 +6,6 @@ def palindrom(arg_1 = "palindrom"):
         if arg_1[i] == arg_1[len(arg_1) - 1 - i]:
             counting +=1
 
+    print(middle_letter == counting)
+
 palindrom()
